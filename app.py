@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = "binascii.hexlify(os.urandom(24)).decode()"  # Needed for flash messages
 
 db_config = {
-    'host': '',
+    'host': 'fbt.ctfmc2mxuxo0.us-east-1.rds.amazonaws.com',
     'user': 'admin',
     'password': 'Freshbasket123',
     'database': 'fresh'
